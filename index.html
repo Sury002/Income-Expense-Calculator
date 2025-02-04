@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income Expense Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-4">
+  <div class="max-w-xl mx-auto bg-white shadow-md rounded-lg p-6">
+    <h1 class="text-2xl font-bold text-center text-blue-600 mb-4">Income Expense Calculator</h1>
+
+    <form id="entry-form" class="space-y-4">
+      <input type="text" id="description" placeholder="Description" required class="w-full p-2 border rounded">
+      <input type="number" id="amount" placeholder="Amount" required class="w-full p-2 border rounded">
+      <select id="type" required class="w-full p-2 border rounded">
+        <option value="">Select Type</option>
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+      <div class="flex justify-between">
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Entry</button>
+        <button type="button" id="reset-btn" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Reset</button>
+      </div>
+    </form>
+
+    <h2 class="text-xl font-semibold mt-6">Entries</h2>
+    <div class="flex gap-4 mt-2">
+      <label><input type="radio" name="filter" value="all" checked> All</label>
+      <label><input type="radio" name="filter" value="income"> Income</label>
+      <label><input type="radio" name="filter" value="expense"> Expense</label>
+    </div>
+    <ul id="entries-list" class="mt-4 space-y-2"></ul>
+
+    <h2 class="text-xl font-semibold mt-6">Summary</h2>
+    <div class="bg-gray-50 p-4 rounded shadow">
+      <p>Total Income: <span id="total-income" class="font-bold text-green-600">$0</span></p>
+      <p>Total Expense: <span id="total-expense" class="font-bold text-red-600">$0</span></p>
+      <p>Net Balance: <span id="net-balance" class="font-bold text-blue-600">$0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

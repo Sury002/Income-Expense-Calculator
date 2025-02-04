@@ -1,0 +1,44 @@
+/* Custom Styles */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  input, select, button {
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #3b82f6; /* Tailwind's blue-500 */
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  #entries-list li {
+    transition: background-color 0.3s;
+  }
+  
+  #entries-list li:hover {
+    background-color: #e5e7eb; /* Tailwind's gray-200 */
+  }
+  
+  @media (max-width: 640px) {
+    .max-w-xl {
+      padding: 1rem;
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+  
+    .flex.justify-between {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  
