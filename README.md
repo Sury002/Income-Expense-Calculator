@@ -43,14 +43,6 @@ Filter: Use radio buttons to view specific types of entries.
 
 Reset: Clears the input fields without affecting the saved data.
 
-💡 Future Improvements
-
-Dark mode toggle.
-
-Export data to CSV.
-
-Improved analytics with charts.
-
 📃 License
 
 This project is open-source and free to use for educational and personal purposes.
