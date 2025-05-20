@@ -1,48 +1,41 @@
-A simple, responsive web application to manage your personal finances. This Income Expense Calculator allows users to add, edit, delete, and filter income and expense entries while providing a summary of their financial status.
+# 💰 Income Expense Calculator
 
-🚀 Features
+A simple, responsive web application to manage your personal finances. This **Income Expense Calculator** allows users to add, edit, delete, and filter income and expense entries while providing a clear summary of their financial status.
 
-Add Income/Expenses: Input description, amount, and select type (income/expense).
+---
 
-CRUD Operations: Create, Read, Update, and Delete entries.
+## 🚀 Features
 
-Filters: View all entries, only income, or only expenses using radio buttons.
+- **Add Income/Expenses**: Input description, amount, and select type (Income or Expense)
+- **CRUD Operations**: Create, Read, Update, and Delete entries
+- **Filters**: View all entries, only income, or only expenses using radio buttons
+- **Summary Dashboard**: Displays total income, total expenses, and net balance
+- **Local Storage**: Automatically saves data even after refreshing or closing the browser
+- **Responsive Design**: Works well on both desktop and mobile devices
 
-Summary Dashboard: Displays total income, total expenses, and net balance.
+---
 
-Local Storage: Data is saved even after refreshing or closing the browser.
+## 🛠️ Technologies Used
 
-Responsive Design: Optimized for both desktop and mobile devices.
+- **HTML**: Provides the structure of the application  
+- **Tailwind CSS**: For responsive and modern UI design  
+- **CSS**: Additional custom styles to enhance UI  
+- **JavaScript**: Handles dynamic functionalities and local storage integration  
 
-📁 Project Structure
+---
 
-├── index.html       # Main HTML structure
-├── style.css        # Custom CSS with Tailwind utility classes
-├── script.js        # JavaScript for interactivity and data management
-└── README.md        # Project documentation
+## 📊 Usage
 
-🛠️ Technologies Used
+- **Add Entry**: Fill in the description, amount, select the type, and click **Add Entry**
+- **Edit Entry**: Click **Edit** next to an entry, modify the details, and click **Save**
+- **Delete Entry**: Click **Delete** to remove an entry from the list
+- **Filter**: Use radio buttons to filter by **All**, **Income**, or **Expense**
+- **Reset**: Clears input fields without deleting stored data
 
-HTML: Structure of the application.
+---
 
-TailwindCSS: For responsive and modern UI design.
+## 📃 License
 
-CSS: Custom styles for enhanced UI.
+This project is **open-source** and free to use for **educational and personal** purposes.
 
-JavaScript: Handles dynamic functionalities and data persistence.
-
-📊 Usage
-
-Add Entry: Fill in the description, amount, select the type, and click Add Entry.
-
-Edit Entry: Click Edit next to an entry, modify the details, and save.
-
-Delete Entry: Click Delete to remove an entry.
-
-Filter: Use radio buttons to view specific types of entries.
-
-Reset: Clears the input fields without affecting the saved data.
-
-📃 License
-
-This project is open-source and free to use for educational and personal purposes.
+---
